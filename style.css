@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://entresabanasyalmohadas.com/wp-content/uploads/2014/06/ppq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#principalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.score {
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+#separator {
+    font-size: 4em;
+    align-self: center;
+    margin: 0 10px;
+}
+
+
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#reset-btn {
+    background-color: #f44336;
+}
+
+#reset-btn:hover {
+    background-color: #d32f2f;
+}
+
